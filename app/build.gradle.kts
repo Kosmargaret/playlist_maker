@@ -6,6 +6,7 @@ plugins {
 android {
     namespace = "com.example.playlist"
     compileSdk = 34
+    buildFeatures{viewBinding = true}
 
     defaultConfig {
         applicationId = "com.example.playlist"
